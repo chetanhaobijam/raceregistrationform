@@ -1,6 +1,45 @@
+:root {
+  --blue1: #0d8ffb;
+  --blue2: #0083ef;
+  --blue3: #005daa;
+  --blue4: #004a88;
+  --blue5: #003969;
+  --pink: #ed174f;
+}
+
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
-  background: url("../images/Marathon_blue_background.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background-color: #ccdfee;
+  font-size: 1rem;
 }
+
+/* Navigation Bar */
+.navbar {
+  padding: 0;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+.brandTitle {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 1rem;
+  color: var(--blue3);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--blue1);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: 4px solid var(--blue1);
+  color: var(--blue1);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--blue5);
+  font-weight: 700;
+}
+
