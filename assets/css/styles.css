@@ -43,3 +43,42 @@ body {
   font-weight: 700;
 }
 
+/* Main Section */
+main {
+  background: url("../images/Marathon_blue_background.jpg") no-repeat center center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+.raceTitle {
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-top: 100px;
+}
+
+hr {
+  background: var(--warning);
+  padding: 2px 30%;
+  opacity: 0.8;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+}
+
+.directions {
+  color: var(--warning);
+}
+
+.socialBtns i {
+  font-size: 1.8rem;
+  margin: 5px 0;
+  margin-right: 10px;
+  color: var(--warning);
+}
