@@ -83,3 +83,58 @@ hr {
   margin-right: 10px;
   color: var(--warning);
 }
+
+/* Races Grid Section */
+.races {
+  text-align: center;
+}
+
+.gridTitle {
+  color: var(--pink);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.racesGrid {
+  display: flex;
+  flex-direction: column;
+}
+
+.rGridOne {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  margin: 20px 40px;
+}
+
+.rGridOne div {
+  padding: 10px;
+}
+
+.rGridBand {
+  background: #fc4a1a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 3px;
+}
+
+.raceType, .pricing, .timing {
+  color: var(--pink);
+  font-size: 1.3rem;
+}
+
+.signUpBtn {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* Footer */
+footer {
+  color: var(--primary);
+  font-size: 0.85rem;
+  text-align: right;
+  font-weight: 500;
+}
