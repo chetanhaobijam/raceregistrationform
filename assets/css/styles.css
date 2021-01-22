@@ -44,6 +44,22 @@ body {
   font-weight: 700;
 }
 
+@media screen and (min-width: 567px) {
+  .logo {
+    width: 150px;
+  }
+  
+  .brandTitle {
+    font-size: 1.75rem;
+    padding: 5px 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.3rem;
+  }
+}
+/* End of Navigation Bar */
+
 /* Main Section */
 main {
   background: url("../images/Marathon_blue_background.jpg") no-repeat center center;
@@ -80,9 +96,30 @@ hr {
 .socialBtns i {
   font-size: 1.8rem;
   margin: 5px 0;
-  margin-right: 10px;
   color: var(--warning);
+  cursor: pointer;
 }
+
+@media screen and (min-width: 567px) {
+  main {
+    height: 95vh;
+  }
+  .raceTitle {
+    font-size: 2.5rem;
+    margin: 160px 0 20px 0;
+  }
+  .address {
+    font-size: 1.5rem;
+  }
+  .address div {
+    margin-bottom: 10px;
+  }
+  .socialBtns i {
+    font-size: 3.5rem;
+    margin-top: 20px;
+  }
+}
+/* End of Main Section */
 
 /* Races Grid Section */
 .races {
@@ -130,6 +167,20 @@ hr {
   font-size: 1.1rem;
   font-weight: 700;
 }
+
+@media screen and (min-width: 567px) {
+  .gridTitle {
+    font-size: 2.5rem;
+    margin: 50px 0;
+  }
+
+  .racesGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+/* End of Races Grid Section */
 
 /* Footer */
 footer {
