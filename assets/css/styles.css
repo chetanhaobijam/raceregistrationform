@@ -39,11 +39,6 @@ body {
   color: var(--blue1);
 }
 
-.navbar-light .navbar-nav .nav-link.active {
-  color: var(--blue5);
-  font-weight: 700;
-}
-
 @media screen and (min-width: 567px) {
   .logo {
     width: 120px;
@@ -56,6 +51,15 @@ body {
 
   .navbar-light .navbar-nav .nav-link {
     font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbrand {
+    padding: 0.2rem;
+  }
+  #registerBtn {
+    padding-right: 15px;
   }
 }
 /* End of Navigation Bar */
@@ -119,6 +123,12 @@ hr {
     margin-top: 20px;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .socialBtns i {
+    margin-top: 20px;
+  }
+}
 /* End of Main Section */
 
 /* Races Grid Section */
@@ -167,6 +177,7 @@ hr {
   font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
+  color: var(--blue3);
 }
 
 @media screen and (min-width: 567px) {
@@ -180,11 +191,31 @@ hr {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .rGridOne div {
+  .rGridBand, .raceType, .pricing {
     padding: 20px;
   }
   .signUpBtn {
     padding: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .racesGrid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin: 0 100px;
+  }
+  .rGridOne {
+    margin: 20px;
+  }
+  .rGridBand {
+    padding: 10px;
+  }
+  .raceType {
+    margin: 20px;
+  }
+  .pricing, .timing {
+    margin: 5px;
   }
 }
 /* End of Races Grid Section */
