@@ -46,11 +46,11 @@ body {
 
 @media screen and (min-width: 567px) {
   .logo {
-    width: 150px;
+    width: 120px;
   }
   
   .brandTitle {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     padding: 5px 0;
   }
 
@@ -106,7 +106,7 @@ hr {
   }
   .raceTitle {
     font-size: 2.5rem;
-    margin: 160px 0 20px 0;
+    margin: 100px 0 20px 0;
   }
   .address {
     font-size: 1.5rem;
@@ -166,11 +166,12 @@ hr {
 .signUpBtn {
   font-size: 1.1rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 567px) {
   .gridTitle {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin: 50px 0;
   }
 
@@ -178,6 +179,12 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+  .rGridOne div {
+    padding: 20px;
+  }
+  .signUpBtn {
+    padding: 10px;
   }
 }
 /* End of Races Grid Section */
@@ -189,3 +196,10 @@ footer {
   text-align: right;
   font-weight: 500;
 }
+@media screen and (min-width: 567px) {
+  footer {
+    font-size: 1.1rem;
+    margin-top: 50px;
+  }
+}
+/* End of Footer Section */
