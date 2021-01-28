@@ -238,3 +238,73 @@ footer {
   }
 }
 /* End of Footer Section */
+
+/* Styles for Register Form Page */
+.mainForm {
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.info {
+  background: var(--red);
+  padding: 15px;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.formContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+label {
+  width: 100%;
+  text-align: left;
+}
+
+.required {
+  color: var(--red);
+  margin-left: 5px;
+}
+
+.form-control {
+  color: var(--blue4);
+}
+
+.form-control:focus {
+  color: var(--blue1);
+}
+
+.genderRadio {
+  width: 100%;
+  text-align: left;
+}
+
+.genderRadio input {
+  margin-right: 5px;
+}
+
+.chooseRace {
+  text-align: left;
+}
+
+.chooseRace div {
+  padding: 2px 0;
+}
+
+#funRace {
+  margin-left: 100px;
+}
+
+#fullMarathon {
+  margin-left: 14px;
+}
+
+.submitBtn {
+  width: 120px;
+  padding: 10px;
+}
