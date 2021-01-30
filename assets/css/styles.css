@@ -300,6 +300,7 @@ label {
   margin-left: 100px;
 }
 
+
 #fullMarathon {
   margin-left: 14px;
 }
@@ -307,4 +308,13 @@ label {
 .submitBtn {
   width: 120px;
   padding: 10px;
+}
+
+@media screen and (min-width: 567px) {
+  form {
+    margin: 0 10%;
+  }
+  #5K {
+    margin-left: -35px;
+  }
 }
