@@ -310,11 +310,21 @@ label {
   padding: 10px;
 }
 
+/* For tablet screens */
 @media screen and (min-width: 567px) {
   form {
     margin: 0 10%;
   }
-  #5K {
+  #fiveK {
     margin-left: -35px;
+  }
+}
+
+/* For laptop screens */
+@media screen and (min-width: 992px) {
+  .formContainer {
+    display: flex;
+    flex-direction: row;
+    
   }
 }
