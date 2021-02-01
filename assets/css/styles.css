@@ -54,7 +54,7 @@ body {
   }
 
   .navbar-light .navbar-nav .nav-link {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -323,8 +323,8 @@ label {
 /* For laptop screens */
 @media screen and (min-width: 992px) {
   .formContainer {
-    display: flex;
-    flex-direction: row;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15%;
   }
 }
